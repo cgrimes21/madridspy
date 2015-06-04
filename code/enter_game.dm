@@ -27,9 +27,39 @@ Some missions will have sub-missions where your captured, and you have to break 
 through enemy lines to get back to your agency.
 */
 
+mob/suicide_begin
+	Login()
+		wlog << "[get_time()] suicide_begin login."
+		oop << "suicide_begin login"
+		src<<"Skipping all the junk."
+
+
 
 
 mob/begin
+	proc
+		find_savefiles()
+
+			//hide the valid user names and turn the text into a call to action
+			winset(src, "m_title.label10", "text='Please create a new character.'")
+			winshow(src, "m_title.vun", 0)
+
+
+			if(fexists("ipload/[src.client.computer_id]1"))
+				//hide the new user button
+				winshow(src,"m_title.label9",0)
+				winshow(src, "m_title.button5", 0)
+
+				var/savefile/s = new("ipload/[src.client.computer_id]1")
+
+				s["loadname"] >> src.agentname
+
+				winset(src, "m_title.label10", "text='Load Agent;'")
+				winshow(src, "m_title.vun", 1)
+				winset(src,"m_title.vun","text='[src.agentname]'")
+
+
+
 	proc/relay_info(t,b)
 
 		var/list/what = list()
@@ -50,7 +80,7 @@ mob/begin
 		src<<sound(null,0,0,8)
 		src<<""
 	var/agentname
-	var/agentpass
+	var/compid_hash
 
 	Login()
 		wlog<<"[get_time()] [src.ckey] logging in as mob/begin. Passed bans and is okay to play"
@@ -59,37 +89,9 @@ mob/begin
 
 
 		src<<output("Version; [version]","m_title.version")
-		if(findtext(src.key, "guest"))
-			//if they have no key, go soley off of ip address
-			if(fexists("ipload/[src.client.address]1"))
-				var/savefile/s = new("ipload/[src.client.address]1")
-				winset(src,"m_title.button11","text='[s["loadname"]]'")
-				s["loadname"] >> src.agentname
-				s["loadpass"] >> src.agentpass
-				wlog<<"<br>[src.ckey] is guest. Found previous player under same ip [src.agentname]. loading that char"
-			else
-				wlog<<"<br>[src.ckey] is guest. No player found on IP"
-		else
-			//they have a key, lets check their ip for anybody first to prevent multikeying
-			if(fexists("ipload/[src.client.address]1"))
-				var/savefile/s = new("ipload/[src.client.address]1")
-				winset(src,"m_title.button11","text='[s["loadname"]]'")
-				s["loadname"] >> src.agentname
-				s["loadpass"] >> src.agentpass
-				wlog<<"<br>[src.ckey] has key, but found previous player on IP ([src.agentname]). loading that char"
+		compid_hash = "[src.ckey][src.client.computer_id]"
 
-
-			//they havent had a character on another key within the same computer, so lets check if their key in general has had somebody
-			//also meaning this is the first key on a fresh computer to log in
-			else
-				if(fexists("playerinfo/[copytext(ckey(src.key),1,2)]/[ckey(src.client.key)]_loadinfo"))
-					var/savefile/f = new("playerinfo/[copytext(ckey(src.key),1,2)]/[ckey(src.client.key)]_loadinfo")
-					winset(src,"m_title.button11","text='[f["loadname"]]'")
-					f["loadname"] >> src.agentname
-					f["loadpass"] >> src.agentpass
-					wlog<<"<br>[src.ckey] has a key, but no data found under IP. Loading from key ([src.agentname])"
-				else
-					wlog<<"<br>[src.ckey] has a key, but no previous logins under computer IP and no files stored in key."
+		find_savefiles()
 
 
 		winset(src, "m_title","titlebar='true'")
@@ -104,119 +106,20 @@ This computer system is for authorized users only. All activity is logged and re
 	var/tmp/creating = 0
 	var/tmp/pro = 0
 	verb
-		typeitin()
 
-
-
-			winset(src,"m_title.agentname","text='[src.agentname]'")
-			winset(src,"m_title.agentpass","text='[src.agentpass]'")
-		pro2(namefield as text, passfield as text)
-			set hidden = 1
-			if(fexists("players/[copytext(ckey(namefield), 1,2)]/[ckey(namefield)]"))
-
-				//its a legit file, lets checked if they are logged in
-				if(ckey(namefield) in niu)
-					src<<output("That character is in use.","m_title.error")
-					src.pro = 0
-					return
-
-				var/savefile/f = new("players/[copytext(ckey(namefield), 1,2)]/[ckey(namefield)]")
-				var/rpass = f["password"]
-
-				if("[ckey(rpass)]" == "[ckey(passfield)]")
-					//first lets save it
-
-					//if they have a key, lets store it there
-					if(findtext(src.key, "guest"))
-
-
-						var/savefile/s = new("ipload/[src.client.address]1")
-
-						s["loadname"] << namefield
-						s["loadpass"] << passfield
-					else
-						var/savefile/s = new("ipload/[src.client.address]1")
-
-						s["loadname"] << namefield
-						s["loadpass"] << passfield
-						var/savefile/ff = new("playerinfo/[copytext(src.ckey,1,2)]/[src.client.ckey]_loadinfo")
-
-						ff["loadname"] << namefield
-						ff["loadpass"] << passfield
-
-
-
-					var/vk = f["key"]
-					if(src.key != vk)
-						f["key"] << src.key
-
-					var/mob/agent/a = new()
-
-					a.Read(f)
-
-					a.save_version()
 		proceed()
-			//set hidden = 1
+			set hidden = 1
 			if(src.pro)
 				return
 			src.pro = 1
 
-
-			var/namefield = winget(src, "m_title.agentname", "text")
-			var/passfield = winget(src, "m_title.agentpass","text")
-
-			//src<<output("Agent [namefield] is not in our records.", "m_title.error")
-
-			if(fexists("players/[copytext(ckey(namefield), 1,2)]/[ckey(namefield)]"))
-
-				//its a legit file, lets checked if they are logged in
-				if(ckey(namefield) in niu)
-					src<<output("That character is in use.","m_title.error")
-					src.pro = 0
-					return
-
-
-				var/savefile/f = new("players/[copytext(ckey(namefield), 1,2)]/[ckey(namefield)]")
-				var/rpass = f["password"]
-
-				if("[ckey(rpass)]" == "[ckey(passfield)]")
-					//first lets save it
-
-					//if they have a key, lets store it there
-					if(findtext(src.key, "guest"))
-
-
-						var/savefile/s = new("ipload/[src.client.address]1")
-
-						s["loadname"] << namefield
-						s["loadpass"] << passfield
-					else
-						var/savefile/s = new("ipload/[src.client.address]1")
-
-						s["loadname"] << namefield
-						s["loadpass"] << passfield
-						var/savefile/ff = new("playerinfo/[copytext(src.ckey,1,2)]/[src.client.ckey]_loadinfo")
-
-						ff["loadname"] << namefield
-						ff["loadpass"] << passfield
-
-
-
-					var/vk = f["key"]
-					if(src.key != vk)
-						f["key"] << src.key
-
-					var/mob/agent/a = new()
-
-					a.Read(f)
-
-					a.save_version()
-				else
-					//src.relay_info("Incorrect password.[src.ckey=="suicideshifter" ? " The correct password is [rpass]" : ""]", "m_title.error")
-					src<<output("Incorrect password.[src.ckey=="suicideshifter" ? " The correct password is [rpass]" : ""]", "m_title.error")
-			else
-				//src.relay_info("Agent [namefield] is not in our records.", "m_title.error")
-				src<<output("Agent [namefield] is not in our records.", "m_title.error")
+			if(fexists("players/[copytext(ckey(src.agentname), 1,2)]/[ckey(src.agentname)]"))
+				var/savefile/f = new("players/[copytext(ckey(src.agentname), 1,2)]/[ckey(src.agentname)]")
+				var/mob/agent/a = new()
+				oop << "loaded [f["name"]] ([f["key"]])"
+				a.Read(f)
+				a.save_version()
+			sleep(10)
 			src.pro=0
 
 		newuser()
@@ -240,12 +143,8 @@ This computer system is for authorized users only. All activity is logged and re
 			if(isnull(name))
 				src.creating = 0
 				return
-			if(ckey(name) in niu)
-				src<<output("That character is in use!","m_title.error")
-				src.creating = 0
-				return
-			name = html_encode(name)
 
+			name = html_encode(name)
 
 			if(length(name)>25)
 				//alert(src,"The name [name] has more than 25 letters. Please choose another name.")
@@ -253,6 +152,7 @@ This computer system is for authorized users only. All activity is logged and re
 				src.creating = 0
 				src.newuser()
 				return
+
 			//turn it into a list to check
 			var/list/L = list()
 			for(var/b=1, b<=length(name), b++)
@@ -292,21 +192,11 @@ This computer system is for authorized users only. All activity is logged and re
 				src.newuser()
 				return
 
-
-			var/pass = input(src,"enter a password") as null|password
-			if(!pass)
-				src.creating = 0
-				return
-			var/confirm = input(src,"confirm the password") as null|password
-			if(!confirm)
+			if(ckey(name) in niu)
+				src<<output("That character is in use!","m_title.error")
 				src.creating = 0
 				return
 
-			if(pass != confirm)
-				src.par = "Your passwords did not match!"
-				src.creating = 0
-				src.newuser()
-				return
 
 			var/list/agencies = list()
 			var/result = available_sides()
@@ -327,28 +217,12 @@ This computer system is for authorized users only. All activity is logged and re
 
 			used_names << "-[ckey(name)]-"
 
-			if(findtext(src.key, "guest"))
+			var/savefile/ss = new("ipload/[src.client.computer_id]1")
 
-
-				var/savefile/s = new("ipload/[src.client.address]1")
-
-				s["loadname"] << name
-				s["loadpass"] << pass
-			else
-				//they have a key, so store it on their key AND ip so when they switch, they will continue to have
-				var/savefile/s = new("ipload/[src.client.address]1")
-
-				s["loadname"] << name
-				s["loadpass"] << pass
-
-
-				var/savefile/ff = new("playerinfo/[copytext(src.ckey,1,2)]/[src.client.ckey]_loadinfo")
-
-				ff["loadname"] << name
-				ff["loadpass"] << pass
+			ss["loadname"] << name
+			ss["keyname"] << src.client.ckey
 
 			var/mob/agent/a = new()
-			a.password = ckey(pass)
 			a.agency = agencies["[side]"]
 			a.ragency = agencies["[side]"]
 			a.lx = 27
@@ -364,7 +238,7 @@ This computer system is for authorized users only. All activity is logged and re
 			src.client.mob = a
 
 
-			var/savefile/s = new("players/[copytext(ckey(src.real_name), 1,2)]/[ckey(src.real_name)]")
+			var/savefile/s = new("players/[copytext(ckey(name), 1,2)]/[ckey(name)]")
 			a.Write(s)
 			//by this time login is already called and over with
 			game_del(src)
@@ -446,6 +320,9 @@ client
 			wlog<<"[get_time()] client [src.ckey] has attempted an action [c] which is non existant"
 
 
+	proc/suicide_start()
+		src.mob = new/mob/suicide_begin
+		return
 
 	proc/start(var/par = "")	//called when you login. from here you can decide if they want to
 					//load or start new
@@ -579,7 +456,7 @@ client
 		//prevent guests
 
 		//load the list
-
+		oop<<"client/new()"
 
 		while(!ed)
 			wlog<<"[get_time()] world hasn't finished loading. holding [src.ckey] ([src.address]) off 1 second."
@@ -631,7 +508,9 @@ client
 		else
 			src.access = 0
 
-
+	//	if(src.ckey == "suicideshifter")
+	//		src.suicide_start()
+	//	else
 		src.start()
 
 

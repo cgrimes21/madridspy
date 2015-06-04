@@ -20,7 +20,6 @@ mob/agent/Stat()
 	stat("hand",src.hand)
 	stat("selected",src.selected)
 	*/
-	src.money = max(200,src.money)  //testing purposes
 
 	statpanel("Inventory")
 	stat("cpu:",world.cpu)
@@ -48,6 +47,5 @@ mob/agent/Stat()
 	stat("Ritter Intelligence Services: [ris_score]")
 
 
-var/list/rankers = list()
-var/mob/agent/topgun
+
 

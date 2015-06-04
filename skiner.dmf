@@ -343,6 +343,8 @@ window "bag"
 		on-show = ""
 		on-hide = ""
 		on-tab = ""
+		prefix-color = none
+		suffix-color = none
 
 window "buttonmenu"
 	elem "buttonmenu"
@@ -479,6 +481,8 @@ window "camera"
 		keep-aspect = false
 		align = center
 		text-wrap = false
+		allow-html = false
+		letterbox = true
 	elem "button2"
 		type = BUTTON
 		pos = 432,584
@@ -557,8 +561,11 @@ window "camera"
 		on-size = ""
 		icon-size = 0
 		text-mode = false
+		letterbox = true
+		zoom = 0
 		on-show = ""
 		on-hide = ""
+		style = ""
 
 window "document"
 	elem "document"
@@ -689,8 +696,11 @@ window "equipmentwindow"
 		on-size = ""
 		icon-size = 32
 		text-mode = false
+		letterbox = true
+		zoom = 0
 		on-show = ""
 		on-hide = ""
+		style = ""
 
 window "loginoutput"
 	elem "loginoutput"
@@ -955,8 +965,11 @@ window "m_map"
 		on-size = ""
 		icon-size = 32
 		text-mode = false
+		letterbox = true
+		zoom = 0
 		on-show = ""
 		on-hide = ""
+		style = ""
 
 window "m_objective"
 	elem "m_objective"
@@ -1259,6 +1272,8 @@ window "m_option_select"
 		keep-aspect = false
 		align = left
 		text-wrap = false
+		allow-html = false
+		letterbox = true
 	elem "resolution"
 		type = INPUT
 		pos = 112,40
@@ -1337,6 +1352,8 @@ window "m_option_select"
 		keep-aspect = false
 		align = center
 		text-wrap = false
+		allow-html = false
+		letterbox = true
 
 window "m_output"
 	elem "m_output"
@@ -1469,6 +1486,62 @@ window "m_title"
 		macro = ""
 		menu = ""
 		on-close = ""
+	elem "label10"
+		type = LABEL
+		pos = 304,312
+		size = 192x12
+		anchor1 = 40,51
+		anchor2 = 65,53
+		font-family = "Batang,Microsoft Sans Serif"
+		font-size = 10
+		font-style = ""
+		text-color = #ffffff
+		background-color = #000000
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = false
+		border = none
+		drop-zone = false
+		right-click = false
+		saved-params = ""
+		on-size = ""
+		text = "Valid Users"
+		image = ""
+		image-mode = center
+		keep-aspect = false
+		align = center
+		text-wrap = false
+		allow-html = false
+		letterbox = true
+	elem "vun"
+		type = BUTTON
+		pos = 256,336
+		size = 288x48
+		anchor1 = 32,55
+		anchor2 = 70,63
+		font-family = "Verdana"
+		font-size = 10
+		font-style = ""
+		text-color = #ffffff
+		background-color = #000000
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = false
+		border = none
+		drop-zone = false
+		right-click = false
+		saved-params = "is-checked"
+		on-size = ""
+		text = ""
+		image = ""
+		command = "proceed"
+		is-flat = true
+		stretch = false
+		is-checked = false
+		group = ""
+		button-type = pushbutton
 	elem "version"
 		type = LABEL
 		pos = 616,8
@@ -1495,60 +1568,8 @@ window "m_title"
 		keep-aspect = false
 		align = left
 		text-wrap = false
-	elem "button11"
-		type = BUTTON
-		pos = 32,308
-		size = 232x36
-		anchor1 = 10,70
-		anchor2 = 35,70
-		font-family = "Verdana"
-		font-size = 10
-		font-style = ""
-		text-color = #ebebeb
-		background-color = #000000
-		is-visible = true
-		is-disabled = false
-		is-transparent = false
-		is-default = false
-		border = line
-		drop-zone = false
-		right-click = false
-		saved-params = "is-checked"
-		on-size = ""
-		text = ""
-		image = ""
-		command = "typeitin"
-		is-flat = true
-		stretch = false
-		is-checked = false
-		group = ""
-		button-type = pushbutton
-	elem "label15"
-		type = LABEL
-		pos = 8,264
-		size = 192x32
-		anchor1 = 10,60
-		anchor2 = 35,60
-		font-family = "Batang"
-		font-size = 11
-		font-style = ""
-		text-color = #ffffff
-		background-color = #000000
-		is-visible = true
-		is-disabled = false
-		is-transparent = false
-		is-default = false
-		border = none
-		drop-zone = false
-		right-click = false
-		saved-params = ""
-		on-size = ""
-		text = "Valid User Names"
-		image = ""
-		image-mode = center
-		keep-aspect = false
-		align = center
-		text-wrap = false
+		allow-html = false
+		letterbox = true
 	elem "label12"
 		type = LABEL
 		pos = 648,406
@@ -1575,6 +1596,8 @@ window "m_title"
 		keep-aspect = false
 		align = center
 		text-wrap = false
+		allow-html = false
+		letterbox = true
 	elem "exitgame"
 		type = BUTTON
 		pos = 728,400
@@ -1655,6 +1678,8 @@ window "m_title"
 		keep-aspect = false
 		align = center
 		text-wrap = false
+		allow-html = false
+		letterbox = true
 	elem "button4"
 		type = BUTTON
 		pos = 728,360
@@ -1709,6 +1734,8 @@ window "m_title"
 		keep-aspect = false
 		align = center
 		text-wrap = false
+		allow-html = false
+		letterbox = true
 	elem "button5"
 		type = BUTTON
 		pos = 728,320
@@ -1739,7 +1766,7 @@ window "m_title"
 		button-type = pushbutton
 	elem "output"
 		type = OUTPUT
-		pos = 170,96
+		pos = 188,96
 		size = 424x208
 		anchor1 = 50,25
 		anchor2 = none
@@ -1763,108 +1790,6 @@ window "m_title"
 		enable-http-images = false
 		max-lines = 1000
 		image = ""
-	elem "proceed"
-		type = BUTTON
-		pos = 412,457
-		size = 80x15
-		anchor1 = 50,65
-		anchor2 = none
-		font-family = ""
-		font-size = 0
-		font-style = ""
-		text-color = #000000
-		background-color = none
-		is-visible = true
-		is-disabled = false
-		is-transparent = false
-		is-default = false
-		border = none
-		drop-zone = false
-		right-click = false
-		saved-params = "is-checked"
-		on-size = ""
-		text = ""
-		image = 'icon\\interf\\proceed.png'
-		command = "proceed"
-		is-flat = true
-		stretch = false
-		is-checked = false
-		group = ""
-		button-type = pushbutton
-	elem "label10"
-		type = LABEL
-		pos = 272,328
-		size = 220x120
-		anchor1 = 50,60
-		anchor2 = none
-		font-family = ""
-		font-size = 0
-		font-style = ""
-		text-color = #000000
-		background-color = none
-		is-visible = true
-		is-disabled = false
-		is-transparent = true
-		is-default = false
-		border = none
-		drop-zone = false
-		right-click = false
-		saved-params = ""
-		on-size = ""
-		text = ""
-		image = 'icon\\interf\\userid.png'
-		image-mode = center
-		keep-aspect = false
-		align = center
-		text-wrap = false
-	elem "agentname"
-		type = INPUT
-		pos = 330,381
-		size = 149x17
-		anchor1 = 50,60
-		anchor2 = none
-		font-family = ""
-		font-size = 8
-		font-style = ""
-		text-color = #ffffff
-		background-color = #a61e0b
-		is-visible = true
-		is-disabled = false
-		is-transparent = false
-		is-default = false
-		border = line
-		drop-zone = false
-		right-click = false
-		saved-params = ""
-		on-size = ""
-		command = ""
-		multi-line = false
-		is-password = false
-		no-command = true
-	elem "agentpass"
-		type = INPUT
-		pos = 330,407
-		size = 149x17
-		anchor1 = 50,60
-		anchor2 = none
-		font-family = ""
-		font-size = 0
-		font-style = ""
-		text-color = #ffffff
-		background-color = #a61e0b
-		is-visible = true
-		is-disabled = false
-		is-transparent = false
-		is-default = false
-		border = line
-		drop-zone = false
-		right-click = false
-		saved-params = ""
-		on-size = ""
-		command = ""
-		multi-line = false
-		is-password = true
-		no-command = true
 	elem "label8"
 		type = LABEL
 		pos = 186,8
@@ -1891,6 +1816,8 @@ window "m_title"
 		keep-aspect = false
 		align = left
 		text-wrap = false
+		allow-html = false
+		letterbox = true
 
 window "mainwindow"
 	elem "mainwindow"
@@ -2129,8 +2056,11 @@ window "mapwindow"
 		on-size = ""
 		icon-size = 0
 		text-mode = false
+		letterbox = true
+		zoom = 0
 		on-show = ".winset\"mainwindow.mainvsplit.left=mapwindow\""
 		on-hide = ".winset\"mainwindow.mainvsplit.left=\""
+		style = ""
 
 window "message"
 	elem "message"
@@ -2349,6 +2279,8 @@ window "msg"
 		keep-aspect = false
 		align = top-left
 		text-wrap = true
+		allow-html = false
+		letterbox = true
 	elem "header"
 		type = LABEL
 		pos = 32,7
@@ -2375,6 +2307,8 @@ window "msg"
 		keep-aspect = false
 		align = center
 		text-wrap = false
+		allow-html = false
+		letterbox = true
 
 window "network_records"
 	elem "network_records"
@@ -2468,6 +2402,8 @@ window "network_records"
 		keep-aspect = false
 		align = center
 		text-wrap = true
+		allow-html = false
+		letterbox = true
 	elem "button10"
 		type = BUTTON
 		pos = 356,308
@@ -2606,6 +2542,8 @@ window "network_records"
 		keep-aspect = false
 		align = center
 		text-wrap = true
+		allow-html = false
+		letterbox = true
 	elem "output"
 		type = OUTPUT
 		pos = 168,152
@@ -2682,6 +2620,8 @@ window "network_records"
 		keep-aspect = false
 		align = left
 		text-wrap = false
+		allow-html = false
+		letterbox = true
 	elem "label3"
 		type = LABEL
 		pos = 24,32
@@ -2708,6 +2648,8 @@ window "network_records"
 		keep-aspect = false
 		align = left
 		text-wrap = false
+		allow-html = false
+		letterbox = true
 	elem "button6"
 		type = BUTTON
 		pos = 192,32
@@ -2870,6 +2812,8 @@ window "quicks"
 		keep-aspect = false
 		align = top
 		text-wrap = true
+		allow-html = false
+		letterbox = true
 	elem "label13"
 		type = LABEL
 		pos = 1,134
@@ -2896,6 +2840,8 @@ window "quicks"
 		keep-aspect = false
 		align = center
 		text-wrap = false
+		allow-html = false
+		letterbox = true
 	elem "dn"
 		type = LABEL
 		pos = 300,400
@@ -2922,6 +2868,8 @@ window "quicks"
 		keep-aspect = false
 		align = center
 		text-wrap = false
+		allow-html = false
+		letterbox = true
 	elem "des"
 		type = LABEL
 		pos = 302,426
@@ -2948,6 +2896,8 @@ window "quicks"
 		keep-aspect = false
 		align = top-left
 		text-wrap = true
+		allow-html = false
+		letterbox = true
 	elem "right"
 		type = MAP
 		pos = 660,264
@@ -2970,8 +2920,11 @@ window "quicks"
 		on-size = ""
 		icon-size = 0
 		text-mode = false
+		letterbox = true
+		zoom = 0
 		on-show = ""
 		on-hide = ""
+		style = ""
 	elem "main"
 		type = MAP
 		pos = 476,288
@@ -2994,8 +2947,11 @@ window "quicks"
 		on-size = ""
 		icon-size = 0
 		text-mode = false
+		letterbox = true
+		zoom = 0
 		on-show = ""
 		on-hide = ""
+		style = ""
 	elem "left"
 		type = MAP
 		pos = 324,264
@@ -3018,8 +2974,11 @@ window "quicks"
 		on-size = ""
 		icon-size = 0
 		text-mode = false
+		letterbox = true
+		zoom = 0
 		on-show = ""
 		on-hide = ""
+		style = ""
 	elem "bodyh"
 		type = LABEL
 		pos = 186,15
@@ -3046,6 +3005,8 @@ window "quicks"
 		keep-aspect = false
 		align = center
 		text-wrap = false
+		allow-html = false
+		letterbox = true
 
 window "rpane"
 	elem "rpane"
@@ -3331,6 +3292,8 @@ window "infowindow"
 		keep-aspect = false
 		align = bottom
 		text-wrap = false
+		allow-html = false
+		letterbox = true
 	elem "itemdesc"
 		type = OUTPUT
 		pos = 1,392
@@ -3388,6 +3351,8 @@ window "infowindow"
 		on-show = ".winset\"rpane.infob.is-visible=true;rpane.browseb.is-visible=true?rpane.infob.pos=130,0:rpane.infob.pos=65,0 rpane.textb.is-visible=true rpane.infob.is-checked=true rpane.rpanewindow.pos=0,30 rpane.rpanewindow.size=0x0 rpane.rpanewindow.left=infowindow\""
 		on-hide = ".winset\"rpane.infob.is-visible=false;rpane.browseb.is-visible=true?rpane.browseb.is-checked=true rpane.rpanewindow.left=browserwindow:rpane.textb.is-visible=false rpane.rpanewindow.pos=0,0 rpane.rpanewindow.size=0x0 rpane.rpanewindow.left=\""
 		on-tab = ""
+		prefix-color = none
+		suffix-color = none
 
 window "shop"
 	elem "shop"
@@ -3455,6 +3420,8 @@ window "shop"
 		keep-aspect = false
 		align = center
 		text-wrap = false
+		allow-html = false
+		letterbox = true
 	elem "shopi"
 		type = GRID
 		pos = 19,70
@@ -3484,6 +3451,7 @@ window "shop"
 		link-color = #0000ff
 		visited-color = #ff00ff
 		line-color = #c0c0c0
+		highlight-color = none
 		style = ""
 		is-list = true
 
@@ -3556,6 +3524,7 @@ window "shop__"
 		link-color = #0000ff
 		visited-color = #ff00ff
 		line-color = #c0c0c0
+		highlight-color = none
 		style = ""
 		is-list = false
 	elem "label1"
@@ -3584,6 +3553,8 @@ window "shop__"
 		keep-aspect = false
 		align = center
 		text-wrap = false
+		allow-html = false
+		letterbox = true
 	elem "label2"
 		type = LABEL
 		pos = 0,450
@@ -3610,6 +3581,8 @@ window "shop__"
 		keep-aspect = false
 		align = center
 		text-wrap = false
+		allow-html = false
+		letterbox = true
 
 window "spyguy"
 	elem "spyguy"
@@ -3749,6 +3722,7 @@ window "stats"
 		link-color = #0000ff
 		visited-color = #ff00ff
 		line-color = #c0c0c0
+		highlight-color = none
 		style = ""
 		is-list = false
 

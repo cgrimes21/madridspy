@@ -110,7 +110,7 @@ turf
 
 	tile
 		//lineedit
-		icon = 'sixtyfour.dmi'
+		icon = 'turfs.dmi'
 		icon_state = "tile"
 		get_hit(mob/who,obj/small/what)
 			if(istype(what,/obj/small/smoke_bomb) || istype(what, /obj/small/bomb) || istype(what,/obj/small/flash_bomb))

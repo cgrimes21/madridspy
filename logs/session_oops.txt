@@ -1,0 +1,5 @@
+Calling world/New()
+proc/create_names()
+client/new()
+loaded Smokey Joe ()
+World/Del()
