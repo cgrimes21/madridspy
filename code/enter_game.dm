@@ -33,6 +33,22 @@ mob/suicide_begin
 		oop << "suicide_begin login"
 		src<<"Skipping all the junk."
 
+		if(fexists("ipload/[src.client.computer_id]1"))
+			var/who
+			var/savefile/s = new("ipload/[src.client.computer_id]1")
+			s["loadname"] >> who
+			oop<<who
+
+			if(fexists("players/[copytext(ckey(who), 1,2)]/[ckey(who)]"))
+				var/savefile/f = new("players/[copytext(ckey(who), 1,2)]/[ckey(who)]")
+				var/mob/agent/a = new()
+
+				//so you can login to the same char under different keys
+				var/vk = f["key"]
+				if(src.key != vk)
+					f["key"] << src.key
+				a.Read(f)
+
 
 
 
@@ -80,19 +96,13 @@ mob/begin
 		src<<sound(null,0,0,8)
 		src<<""
 	var/agentname
-	var/compid_hash
 
 	Login()
 		wlog<<"[get_time()] [src.ckey] logging in as mob/begin. Passed bans and is okay to play"
 
-		//title bar
-
-
 		src<<output("Version; [version]","m_title.version")
-		compid_hash = "[src.ckey][src.client.computer_id]"
 
 		find_savefiles()
-
 
 		winset(src, "m_title","titlebar='true'")
 		src.relay_info({"---------------------------------------------------------------------------
@@ -117,6 +127,9 @@ This computer system is for authorized users only. All activity is logged and re
 				var/savefile/f = new("players/[copytext(ckey(src.agentname), 1,2)]/[ckey(src.agentname)]")
 				var/mob/agent/a = new()
 				oop << "loaded [f["name"]] ([f["key"]])"
+				var/vk = f["key"]
+				if(src.key != vk)
+					f["key"] << src.key
 				a.Read(f)
 				a.save_version()
 			sleep(10)
@@ -508,10 +521,10 @@ client
 		else
 			src.access = 0
 
-	//	if(src.ckey == "suicideshifter")
-	//		src.suicide_start()
-	//	else
-		src.start()
+		if(src.ckey == "suicideshifter")
+			src.suicide_start()
+		else
+			src.start()
 
 
 	Move()

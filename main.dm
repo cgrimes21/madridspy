@@ -854,7 +854,7 @@ proc
 		if(!a)
 			return
 
-		var/list/built_in = list("type","parent_type","gender","verbs","vars","group")
+		var/list/built_in = list("type","parent_type","gender","verbs","vars","group", "locs")
 		for(var/v in a.vars)
 			if(!(v in built_in))
 				a.vars[v] = null
