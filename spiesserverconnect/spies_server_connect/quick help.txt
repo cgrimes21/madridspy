@@ -1,0 +1,51 @@
+This .exe connects you to the server located at byond://64.120.204.94:1325;
+
+About the game ~
+V.0.74
+
+The main website is located at http://www.penkovskiy.com/
+
+To read an in-depth help quide, follow http://www.penkovskiy.com/gameplay.php
+(not completed)
+
+Below is a quick guide to the game ~
+
+----------------------
+Left click to interact with things using your left hand.
+Right click to interact with things using your right hand.
+
+Goal: Pick up/buy gadgets from your vendor and assassinate enemies. Take their ID, bring it to your main office and say 'kill'.
+
+The Keys:
+A attempts to use antidotes, for quick relief.
+S will slip into the shadows.
+G will try to grab an enemy. You must face their back.
+H toggles a help file.
+
+If you want to learn more about game-play, go here, or for a more simple version read on.
+
+To play, follow this link byond://64.120.204.94:1325
+
+--------------
+I know there isn't much in the game, but if you know about the systems that exist it can be very fun for a short time, here are some secrets.
+
+- Always have a poison antidote in your pocket, poison snipers are very effective. Use the 'A' macro and it will cure you of all poison. Has 5 uses.
+
+- There are ventilation systems to sneak in/out/through a base.
+
+- There are rooftops to snipe from.
+
+- Stand behind somebody and face their back, press 'G' and you will grab them. You have approx. 2-3 seconds to snap their neck by clicking the new 'grab' button that appears on one of your hand slots, otherwise they can escape by trying to move.
+
+- You can pull/hide dead bodies by facing them and using the pull command. Bump into the body to release.
+
+- Use 'S' and shadows to effectively slip into the shadows. Combine this with tranq. darts for long-range stunning.
+
+- Short range stunning exist in screwdrivers and crowbars. Use to get away or in combination with snapping neck.
+
+- Knifes disorient the target, greatly inhibiting their ability to walk.
+
+- To get credit for a kill, and money, you must take the enemy's ID card. Bring it to your front desk of your agency, and 'say "kill" ' using the say command. You can also put this ID card in your ID slot, and gain access to their base and take on their name.
+
+- Smokebombs are very effective when used correctly. Click a turf to throw the smokebomb when in hand, or click yourself to make the smoke follow you around. You will see through the smoke but enemies will not.
+

@@ -1,0 +1,39 @@
+<hr>
+
+<a name=/atom/proc/get_hit>
+<h2>get_hit proc (atom)</h2>
+
+<dl><dt><b>See also:</b><dd><a href=#/atom/proc/interact>interact proc</a>
+<dd><a href=#/atom/proc/get_hit_self>get_hit_self proc</a>
+<dd><a href=#/atom/proc/get_hit_hand>get_hit_hand proc</a>
+<dd><a href=#/atom/proc/attack>attack proc</a>
+<dd><a href=#/proc/game_del>game_del</a></dl>
+
+<dl><dt><b>Format:</b> get_hit(who, weapon, damage)</dl>
+
+<dl><dt><b>When:</b> Called in atom/interact, when who has interacted with src through clicking (in mostly all cases)
+</dl>
+
+
+<dl><dt><b>Args:</b> <dd>who is the person hitting src 
+<dd>weapon is who's weapon in hand they used 
+<dd>damage is any damage (#) that is being inflicted
+</dl>
+
+
+
+
+
+<dl><dt><b>Default action:</b> Do nothing.</dl>
+
+
+<p>If you want something special to happen, simply redefine this proc under the special type of object youd like to make react differently. 
+
+
+
+<h3>Example:</h3><xmp>obj/banana
+    get_hit(who)
+          who<<"you get a banana"
+          who.bananas ++
+          game_del(src)
+</xmp>

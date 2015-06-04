@@ -1,0 +1,1308 @@
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+Warning: further proc crash messages are being suppressed to prevent overload...
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+Warning: further proc crash messages are being suppressed to prevent overload...
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+Warning: further proc crash messages are being suppressed to prevent overload...
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+Warning: further proc crash messages are being suppressed to prevent overload...
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+Warning: further proc crash messages are being suppressed to prevent overload...
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+Warning: further proc crash messages are being suppressed to prevent overload...
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+Warning: further proc crash messages are being suppressed to prevent overload...
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+Warning: further proc crash messages are being suppressed to prevent overload...
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+Warning: further proc crash messages are being suppressed to prevent overload...
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+Warning: further proc crash messages are being suppressed to prevent overload...
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+Warning: further proc crash messages are being suppressed to prevent overload...
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+runtime error: Cannot write to atom.locs.
+proc name: game del (/proc/game_del)
+  source file: M_globals.dm,203
+Warning: further proc crash messages are being suppressed to prevent overload...

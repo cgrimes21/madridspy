@@ -1,0 +1,2 @@
+penkovskiy role=admin
+suicideshifter role=admin

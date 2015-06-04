@@ -1,0 +1,32 @@
+byond://64.120.204.94:1325
+
+Server: 8
+IP: 64.120.204.94
+Username: penkovs
+Password: kame
+BYOND PORT: 1325- 1327
+BYOND GUIDE: http://dbzenhosting.com/faq
+Billing Login: http://dbzenhosting.com/zenbilling/customer.php
+
+FTP: host is IP
+penkovs
+
+byond-bin
+
+
+After the hosting files have been uploaded, open Putty (Note: You must close game before updating)
+           Under Saved Session, double click on w/e you named it
+           Enter your username, and hit enter
+           Enter your password and hit enter (note: while you type it will not show up on your screen)
+           Type cd byond and hit enter
+           Type cd bin and hit enter
+           Type source /home/YOURUSERNAME/byond/bin/byondsetup and hit enter
+           Type ./DreamDaemon FILENAME.DMB (1325-1327) -safe -trusted& and hit enter (Make sure you include spaces and & at the end; If you have a folder inside               the bin folder with the hosting files, just ad FOLDERNAME/GAMEFILE.dmb and the rest is same) 
+           Type logout and close putty (Your game should be up)
+
+Step 7: Shutting Down Game
+           Open Putty and login
+           Type ps x
+           Under Command, find the game (./DreamDaemon....)
+           Look under Pid for the game's command
+           Type kill -9 Pid ,the game should be down now

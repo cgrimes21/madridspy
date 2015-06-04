@@ -1,0 +1,22 @@
+<hr>
+<title>refresh_clothings proc (mob)</title>
+<a name=/mob/proc/refreshclothings>
+<h2>refresh_clothings proc (mob)</h2>
+
+<dl><dt><b>See also:</b><dd>
+
+<a href=#/atom/proc/interact>interact proc</a>
+
+</dl>
+
+<dl><dt><b>Format:</b> refresh_clothings()</dl>
+
+<dl><dt><b>When:</b> Called when a mob logs in, interacts hand with an item, when issued an ID card, when you change slots on gui.
+</dl>
+
+
+
+<p>What this proc does is set your agency/name to its real value, looks for an ID card worn and will switch your name/agency correspondingly. If you are cuffed,ko'ed,or below dead, your pulling is set to null and you drop any items you are holding.
+
+It then goes through your variables to see what is in what slot, and refresh your screen.
+It only deletes items on your screen that are in your mob, keep that in mind as it could cause for possible bugs in the future.

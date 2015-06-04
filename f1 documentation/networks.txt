@@ -1,0 +1,85 @@
+Security Nodes/programs
+
+Each terminal runs a system provided by a company (i.e. biostech v.3.9 or nanotrasen security v.3.0)
+
+For each system, comes a package of programs that run different security devices around the area.
+Simple/less complicated security devices require less quality systems with fewer options, but are also easier to hack than higher systems.
+
+We're just strictly talking security. No relations to any computer databanks/servers right as of yet. The only relation is a security server - which lists all the systems installed. selecting a system will open up a list of terminals using that system. The computer database will use a specific system (high high tech) for all data. 
+
+One last thing - the terminals controlling the security will have wireless signallers installed and run by programs. These are what send data to any wireless receiving device. More on that and playing with later.
+
+Setup---
+Ritter Intel. Agency will have: servers (all on LANs)
+
+
+RIS Internal Services
+	-- For agents belonging to this agency. 
+	News
+		-news relating to RIS or their country
+	Mission list
+		-missions you can take while in RIS
+	Software upgrades
+		-software upgrades for your laptops/terminals (OS systems/programs)
+	Hardware upgrades
+		-new hardware
+	Rankings
+		-ranks of spies
+	Supply Orders
+		
+	Help
+
+	Admin
+	
+
+RIS Database
+	-anything data related goes here. top secret
+RIS Central Mainframe
+	-control to all servers on the network (security/research logs/profiles)
+
+
+
+System names:
+next to names are the base version. higher base versions are better quality systems
+
+
+
+P-Logic v.1.1	(p-logic v.1.1 - 2.1) - room for upgrades
+Optika v.2.2	(2.2 - 3.3)
+Jupiter v.3.4
+Bridge v.4.3 - 5.0 beta
+
+
+
+friday 4
+sat 12 hrs
+sun 7.5 hrs
+
+friday 4
+sat 5.5 hrs
+sun 7.5
+
+8+12+7.5+5.5+7.5
+20.5+12+8
+32.5
+40.5 hrs for 2 weeks
+get paid :  221 dollars
+440 end of month + 232 = 672
+
+672
+battery - 100
+last rent - 250
+turbo tax - 56
+02728
+rent - 500
+
+
+280
+
+1:15
+conf code: 90124559
+
+
+
+last 4 digits of card number 6713
+ricks cell: 617-888-6462
