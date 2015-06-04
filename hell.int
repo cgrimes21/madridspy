@@ -1,24 +1,24 @@
 // BEGIN_INTERNALS
 /*
-PACKAGE_DMB_HUB: SuicideShifter.hell
-LAST_COMPILE_TIME: 1433383060
-DIR: code 
-UPDATE_OBJ_TREE: ON
-PACKAGE_RSC_NAME: C:\Documents and Settings\Owner\Desktop\madrid spy\hell_src\hell\hell_rsc.zip
-AUTO_FILE_DIR: ON
-PACKAGE_DMB_INFO: names.txt, used_names.txt,
-PACKAGE_DMB_CLEANCHECK: ON
-PACKAGE_DME_CLEANCHECK: OFF
 MAP_ICON_TYPE: 0
-PACKAGE_DME_NAME: C:\Documents and Settings\Owner\Desktop\madrid spy\hell_src\hell\hell_src.zip
-LAST_COMPILE_VERSION: 507.1286
-PACKAGE_DME_START: 
-PACKAGE_TYPE: 0
-WINDOW: code\S_admin.dm
-PACKAGE_DME_INFO: 
-PACKAGE_RSC_CLEANCHECK: OFF
-FILE: code\S_admin.dm
-PACKAGE_DMB_NAME: C:\Documents and Settings\Owner\Desktop\madrid spy\hell_src\hell\nohosttut.zip
+WINDOW: code\access.dm
+LAST_COMPILE_VERSION: 503.1223
+PACKAGE_RSC_NAME: C:\Documents and Settings\Owner\Desktop\madrid spy\hell_src\hell\hell_rsc.zip
 PACKAGE_DME_DEMO: 
+PACKAGE_DME_CLEANCHECK: OFF
+PACKAGE_RSC_CLEANCHECK: OFF
+PACKAGE_TYPE: 0
+PACKAGE_DMB_HUB: SuicideShifter.hell
+PACKAGE_DMB_CLEANCHECK: ON
+UPDATE_OBJ_TREE: ON
+PACKAGE_DME_START: 
+DIR: code 
+PACKAGE_DME_NAME: C:\Documents and Settings\Owner\Desktop\madrid spy\hell_src\hell\hell_src.zip
+FILE: code\access.dm
+PACKAGE_DME_INFO: 
+PACKAGE_DMB_NAME: C:\Documents and Settings\Owner\Desktop\madrid spy\hell_src\hell\nohosttut.zip
+LAST_COMPILE_TIME: 1433454483
+PACKAGE_DMB_INFO: names.txt, used_names.txt,
+AUTO_FILE_DIR: ON
 */
 // END_INTERNALS

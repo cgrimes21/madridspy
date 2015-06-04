@@ -1,9 +1,4 @@
 *.dmb
 *.dme
-hell.int
-hell.lk
-*.lk
-*.dmb
-*.dme
-*.int
-*.rsc
+
+*.lk*.rsc*.dmb

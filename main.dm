@@ -56,7 +56,6 @@ world
 	mob = /mob/agent
 	turf = /turf/grass
 	tick_lag=1
-	icon_size = 32
 
 
 	Del()
@@ -138,13 +137,6 @@ mob/verb/get_window_poss()
 mob/verb/alter_perception()
 	src.client.dir = pick(NORTH,SOUTH,EAST,WEST)
 #define DEBUG
-
-#define TILE_WIDTH 32
-#define TILE_HEIGHT 32
-#define MAX_VIEW_TILES 800
-#define floorit(x) round(x)
-#define ceil(x) (-round(-x))
-
 
 #define CELLRATE 0.002		//percent load taken from a cell per second (load of 100 watts, -.2 units/s giving the cell life 8.3 mins)
 #define CELLCHARGE 0.001	//percent charge per second
@@ -862,7 +854,7 @@ proc
 		if(!a)
 			return
 
-		var/list/built_in = list("type","parent_type","gender","verbs","vars","group", "locs")
+		var/list/built_in = list("type","parent_type","gender","verbs","vars","group")
 		for(var/v in a.vars)
 			if(!(v in built_in))
 				a.vars[v] = null

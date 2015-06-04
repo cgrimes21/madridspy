@@ -30,6 +30,8 @@ mob/verb
 	drawscreen()
 		draw_screen(src)
 
+world
+	icon_size = 32
 proc
 	draw_light(obj/b_light/s)
 		if(!shadows)

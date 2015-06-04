@@ -73,15 +73,14 @@ proc
 		////////////
 
 		wlog<<"[get_time()]: generating market list<br>--------<br>"
-		wlog<<"<br> Name (value/initial value) - sale value - value modifier<br>"
 		for(var/s in typesof(/obj/small))
 
 			var/obj/small/ss = new s()
-			wlog<<"<br>[ss.name] ([ss.value]/[ss.initial_value])-[ss.sale_value]-[ss.value_mod] - "
+			wlog<<"<br>created new type of [ss] ([ss.value]/[ss.initial_value] [ss.sale_value] [ss.value_mod] - "
 			market_items += new /market_values (ss,ss.value,ss.initial_value,ss.sale_value,ss.value_mod)
+			wlog<<"added to market items list | "
 			game_del(ss)
-
-		wlog<<"<br>Objects Total: [market_items.len]"
+			wlog<<"deleted object [ss] | "
 		wlog<<"[get_time()]: end generation"
 
 	dwindle()

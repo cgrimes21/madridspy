@@ -233,15 +233,15 @@ turf
 
 
 
+
 	floor
 		icon_state = "floor"
-		get_hit(mob/who, obj/small/what)
+		get_hit(mob/who,obj/small/what)
 			if(istype(what,/obj/small/smoke_bomb) || istype(what, /obj/small/bomb) || istype(what,/obj/small/flash_bomb))
 				var/d = get_dir(src,who)
 				d = turn(d,180)
 				var/space = get_dist(who,src)
 				who.throw_item(what,d,space)
-
 	grid
 		icon_state = "grid"
 	fence

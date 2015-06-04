@@ -126,6 +126,14 @@ H toggles this help file."},"m_help.output")
 			src.unmask()
 			//unmask them
 
+			/*
+			var/obj/I = new
+			I.mouse_opacity = 0
+			I.screen_loc = "1,1"
+			I.icon = 'border6.png'
+			if(src.client)
+				src.client.screen += I
+*/
 			if(src.agency == RIS)
 				src<<"Your agency's pass code is [ris_code]"
 
@@ -211,8 +219,6 @@ H toggles this help file."},"m_help.output")
 			else
 				src<<sound(null,0,0,1)
 				play_ambience(src)
-
-			src.client.onResize()
 
 
 		Logout()
