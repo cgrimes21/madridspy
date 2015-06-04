@@ -1,7 +1,8 @@
 mob
 	mouse_over_pointer = MOUSE_CROSSHAIRS_POINTER
 	icon = 'spy.dmi'
-	pixel_step_size = 8
+	glide_size = 8
+	animate_movement = 2
 	flags = BIOL | FPRINT
 	//options
 	var/sound = TRUE
@@ -24,6 +25,7 @@ mob
 
 
 	var/intent = "disarm"
+
 	//intents:
 	/*
 	intents
