@@ -1,24 +1,24 @@
 // BEGIN_INTERNALS
 /*
-MAP_ICON_TYPE: 0
-WINDOW: main.dm;changes.dm;code\enter_game.dm;code\M_elevation system.dm;code\M_fighting system.dm;code\access.dm;code\M_atoms other_obj.dm;code\agent\login out.dm
-PACKAGE_RSC_NAME: C:\Documents and Settings\Owner\Desktop\madrid spy\hell_src\hell\hell_rsc.zip
-LAST_COMPILE_VERSION: 503.1223
-PACKAGE_DME_DEMO: 
-PACKAGE_DME_CLEANCHECK: OFF
 PACKAGE_DMB_HUB: SuicideShifter.hell
-PACKAGE_TYPE: 0
-PACKAGE_RSC_CLEANCHECK: OFF
+LAST_COMPILE_TIME: 1433478963
+DIR: code code\agent code\mob 
 UPDATE_OBJ_TREE: ON
-PACKAGE_DMB_CLEANCHECK: ON
-PACKAGE_DME_START: 
-DIR: code code\agent code\technology 
-PACKAGE_DME_NAME: C:\Documents and Settings\Owner\Desktop\madrid spy\hell_src\hell\hell_src.zip
-FILE: main.dm
-PACKAGE_DME_INFO: 
-LAST_COMPILE_TIME: 1433469171
-PACKAGE_DMB_NAME: C:\Documents and Settings\Owner\Desktop\madrid spy\hell_src\hell\nohosttut.zip
+PACKAGE_RSC_NAME: C:\Documents and Settings\Owner\Desktop\madrid spy\hell_src\hell\hell_rsc.zip
 AUTO_FILE_DIR: ON
 PACKAGE_DMB_INFO: names.txt, used_names.txt,
+PACKAGE_DMB_CLEANCHECK: ON
+PACKAGE_DME_CLEANCHECK: OFF
+MAP_ICON_TYPE: 0
+PACKAGE_DME_NAME: C:\Documents and Settings\Owner\Desktop\madrid spy\hell_src\hell\hell_src.zip
+LAST_COMPILE_VERSION: 507.1286
+PACKAGE_DME_START: 
+PACKAGE_TYPE: 0
+WINDOW: code\access.dm;code\S_doors.dm;code\S_black market.dm;code\M_atoms other_obj.dm;code\M_area.dm;code\M_reworked interaction.dm;code\M_ventilation.dm;code\S_bubbletext.dm;code\agent\verb.dm;code\agent\defines.dm;code\agent\market.dm;code\agent\med_tickle().dm;code\agent\process().dm;code\agent\slow_tickle.dm;code\agent\utility.dm;code\mob\is_binded().dm
+PACKAGE_DME_INFO: 
+PACKAGE_RSC_CLEANCHECK: OFF
+FILE: code\mob\is_binded().dm
+PACKAGE_DMB_NAME: C:\Documents and Settings\Owner\Desktop\madrid spy\hell_src\hell\nohosttut.zip
+PACKAGE_DME_DEMO: 
 */
 // END_INTERNALS

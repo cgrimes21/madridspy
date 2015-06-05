@@ -287,14 +287,17 @@ obj
 
 			if(get_dist(M,src)>1)
 				return
+			if(src.opening || src.open)
+				return
 
 			src.add_fingerprint(M)
 
 
 			M<<"you look through the keyhole"// knock on the door"
 			if(M.client)
-
+				var/d = get_dir(M,src)
 				M.client.eye = locate(src.x,src.y,src.z)
+				M.client.eye = (get_step(src,d))
 			return
 
 

@@ -340,7 +340,7 @@ proc
 				break	//break and do nomore
 			m.Overlays += a
 		m.refresh_overlays()
-		//m.overlays += m.Overlays
+		m.overlays += m.Overlays
 
 
 

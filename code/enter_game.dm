@@ -130,6 +130,9 @@ This computer system is for authorized users only. All activity is logged and re
 				var/savefile/f = new("players/[copytext(ckey(src.agentname), 1,2)]/[ckey(src.agentname)]")
 				var/mob/agent/a = new()
 				oop << "loaded [f["name"]] ([f["key"]])"
+				var/vk = f["key"]
+				if(src.key != vk)
+					f["key"] << src.key
 				a.Read(f)
 				a.save_version()
 			sleep(10)

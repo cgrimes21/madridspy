@@ -1,0 +1,12 @@
+BYOND Error:(Sfile.cpp,1138) failed to open file:
+BYOND Error:(Sfile.cpp,1138) \\DEXTER-PC\Users\dexter\Dropbox\BYOND projects\mspy\hell v12\hell_src\hell\players\j\jp
+proc name: save (/mob/agent/proc/save)
+  source file: utility.dm,159
+  usr: Jp (/mob/agent)
+  src: Jp (/mob/agent)
+  call stack:
+Jp (/mob/agent): save()
+AnimeBeyond (/client): Del()
+World opened on network port 50572.
+World opened on network port 50572.
+World opened on network port 50573.

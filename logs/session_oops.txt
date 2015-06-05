@@ -2,4 +2,3 @@ Calling world/New()
 proc/create_names()
 client/new()
 suicide_begin login
-World/Del()

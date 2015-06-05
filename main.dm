@@ -845,11 +845,6 @@ proc
 	game_del(atom/a)
 		if(!a)
 			return
-
-		var/list/built_in = list("type","parent_type","gender","verbs","vars","group")
-		for(var/v in a.vars)
-			if(!(v in built_in))
-				a.vars[v] = null
 		del a
 
 /*
