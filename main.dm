@@ -92,6 +92,7 @@ world
 		rev = r/15.42		//every 5.42 days, there is 1 revolution
 		generate_market_list()
 		wlog<<"[get_time()] -world/new()- year calculated; [rev]."
+
 //		initialize_sql_database()
 
 //		generate_networks()
@@ -106,21 +107,6 @@ world
 
 		spawn(20)	//give the world a time to finish the above procs
 			main_loop()
-
-
-
-
-
-
-		//replace new() procs with load() procs, and call the load here after things are done
-
-/*
-243
-237
-228
-
-rbg values for original output box
-*/
 
 //Constants
 mob/verb/get_window_poss()
@@ -137,6 +123,12 @@ mob/verb/get_window_poss()
 mob/verb/alter_perception()
 	src.client.dir = pick(NORTH,SOUTH,EAST,WEST)
 #define DEBUG
+
+#define TILE_WIDTH 32
+#define TILE_HEIGHT 32
+#define MAX_VIEW_TILES 800
+#define floorit(x) round(x)
+#define ceil(x) (-round(-x))
 
 #define CELLRATE 0.002		//percent load taken from a cell per second (load of 100 watts, -.2 units/s giving the cell life 8.3 mins)
 #define CELLCHARGE 0.001	//percent charge per second

@@ -220,6 +220,8 @@ H toggles this help file."},"m_help.output")
 				src<<sound(null,0,0,1)
 				play_ambience(src)
 
+			src.client.onResize()
+
 
 		Logout()
 			wlog<<"[get_time()] [src.real_name](([src.ckey])) logging out"

@@ -1,2 +1,1 @@
-Moving M_globals.dm to main.dm
-
+1. Adding locs to game_del exclude will make movement choppy. DONT DO IT

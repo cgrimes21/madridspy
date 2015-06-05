@@ -1,5 +1,5 @@
 Calling world/New()
 proc/create_names()
 client/new()
-loaded tro (Suicide Shifter)
+suicide_begin login
 World/Del()

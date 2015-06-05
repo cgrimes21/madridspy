@@ -33,7 +33,22 @@ mob/suicide_begin
 		oop << "suicide_begin login"
 		src<<"Skipping all the junk."
 
+		if(fexists("ipload/[src.client.computer_id]1"))
+			var/who
+			var/savefile/s = new("ipload/[src.client.computer_id]1")
+			s["loadname"] >> who
 
+			if(fexists("players/[copytext(ckey(who), 1,2)]/[ckey(who)]"))
+				var/savefile/f = new("players/[copytext(ckey(who), 1,2)]/[ckey(who)]")
+				var/mob/agent/a = new()
+
+				//so you can login to the same char under different keys
+				var/vk = f["key"]
+				if(src.key != vk)
+					f["key"] << src.key
+				a.Read(f)
+		else
+			src.client.mob = new /mob/begin
 
 
 mob/begin
@@ -80,7 +95,6 @@ mob/begin
 		src<<sound(null,0,0,8)
 		src<<""
 	var/agentname
-	var/compid_hash
 
 	Login()
 		wlog<<"[get_time()] [src.ckey] logging in as mob/begin. Passed bans and is okay to play"
@@ -89,7 +103,6 @@ mob/begin
 
 
 		src<<output("Version; [version]","m_title.version")
-		compid_hash = "[src.ckey][src.client.computer_id]"
 
 		find_savefiles()
 
@@ -309,8 +322,36 @@ client
 	preload_rsc = 0
 	var/access = 0	//member
 
+	var
+		view_width
+		view_height
+		buffer_x
+		buffer_y
+		map_zoom
+	verb
+		onResize()
+			set hidden = 1
+			set waitfor = 0
+			var/sz = winget(src,"map1","size")
+			var/map_width = text2num(sz)
+			var/map_height = text2num(copytext(sz,findtext(sz,"x")+1,0))
+			map_zoom = 1
+			view_width = ceil(map_width/TILE_WIDTH)
+			if(!(view_width%2)) ++view_width
+			view_height = ceil(map_height/TILE_HEIGHT)
+			if(!(view_height%2)) ++view_height
 
+			while(view_width*view_height>MAX_VIEW_TILES)
+				view_width = ceil(map_width/TILE_WIDTH/++map_zoom)
+				if(!(view_width%2)) ++view_width
+				view_height = ceil(map_height/TILE_HEIGHT/map_zoom)
+				if(!(view_height%2)) ++view_height
 
+			buffer_x = floorit((view_width*TILE_WIDTH - map_width/map_zoom)/2)
+			buffer_y = floorit((view_height*TILE_HEIGHT - map_height/map_zoom)/2)
+
+			src.view = "[view_width]x[view_height]"
+			winset(src,"map1","zoom=[map_zoom];")
 
 	Command(c as command_text)
 
@@ -508,10 +549,10 @@ client
 		else
 			src.access = 0
 
-	//	if(src.ckey == "suicideshifter")
-	//		src.suicide_start()
-	//	else
-		src.start()
+		if(src.ckey == "suicideshifter")
+			src.suicide_start()
+		else
+			src.start()
 
 
 	Move()

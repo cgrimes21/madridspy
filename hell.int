@@ -1,24 +1,24 @@
 // BEGIN_INTERNALS
 /*
 MAP_ICON_TYPE: 0
-WINDOW: code\access.dm
-LAST_COMPILE_VERSION: 503.1223
+WINDOW: main.dm;changes.dm;code\enter_game.dm;code\M_elevation system.dm;code\M_fighting system.dm;code\access.dm;code\M_atoms other_obj.dm;code\agent\login out.dm
 PACKAGE_RSC_NAME: C:\Documents and Settings\Owner\Desktop\madrid spy\hell_src\hell\hell_rsc.zip
+LAST_COMPILE_VERSION: 503.1223
 PACKAGE_DME_DEMO: 
 PACKAGE_DME_CLEANCHECK: OFF
-PACKAGE_RSC_CLEANCHECK: OFF
-PACKAGE_TYPE: 0
 PACKAGE_DMB_HUB: SuicideShifter.hell
-PACKAGE_DMB_CLEANCHECK: ON
+PACKAGE_TYPE: 0
+PACKAGE_RSC_CLEANCHECK: OFF
 UPDATE_OBJ_TREE: ON
+PACKAGE_DMB_CLEANCHECK: ON
 PACKAGE_DME_START: 
-DIR: code 
+DIR: code code\agent code\technology 
 PACKAGE_DME_NAME: C:\Documents and Settings\Owner\Desktop\madrid spy\hell_src\hell\hell_src.zip
-FILE: code\access.dm
+FILE: main.dm
 PACKAGE_DME_INFO: 
+LAST_COMPILE_TIME: 1433469171
 PACKAGE_DMB_NAME: C:\Documents and Settings\Owner\Desktop\madrid spy\hell_src\hell\nohosttut.zip
-LAST_COMPILE_TIME: 1433454483
-PACKAGE_DMB_INFO: names.txt, used_names.txt,
 AUTO_FILE_DIR: ON
+PACKAGE_DMB_INFO: names.txt, used_names.txt,
 */
 // END_INTERNALS
