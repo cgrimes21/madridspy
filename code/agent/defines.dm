@@ -51,3 +51,5 @@ mob
 			//sound = "true"
 			max = "true"
 			bar = "true"
+
+			show_teammates = 0

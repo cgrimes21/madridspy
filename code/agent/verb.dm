@@ -40,6 +40,20 @@ mob
 				src<<"-------------"
 				src<<"<b>Total: - [counter]</b>"
 
+			show_teammates()
+				set name = "show/hide teammates"
+				src.show_teammates = !src.show_teammates
+
+				if(src.show_teammates)
+					for(var/mob/agent/a in src.teammate)
+						var/image/Ii = 	image('shit.dmi',a,"tranq dart",layer=MOB_LAYER)
+						Ii.pixel_y += 32
+						if(src.client)
+							src.client.images += Ii
+				else
+					for(var/image/I in src.client.images)
+						if(I.icon_state == "tranq dart")
+							game_del(I)
 
 			slip()
 				src.hide()

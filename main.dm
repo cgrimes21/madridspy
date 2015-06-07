@@ -510,7 +510,6 @@ proc
 		//a tag of vents to release gas, kills all biologicals within a 2-5m range
 
 
-
 	switch_view()
 
 	available_sides()	//returns which sides are available for play, value of zero means both are available

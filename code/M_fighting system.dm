@@ -16,6 +16,10 @@ mob
 			return
 		if(!src)
 			return
+
+		if(istype(src, /mob/npc/missions_clerk))
+			src.get_hit_hand(M)
+			return
 		if(M.health <= 0)	//unconscious
 			return
 
@@ -41,7 +45,7 @@ mob
 			range = ww.range
 
 		if((get_dist(M,src)>range))
-			M<<"\blue target is out of reach."
+			M<<"\red target is out of reach."
 			return
 
 		//////////////////

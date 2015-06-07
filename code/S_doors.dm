@@ -266,6 +266,7 @@ obj
 				//	src.add_fingerprint(a)
 
 				src.closing = 1
+				src.density = 1
 				flick(closin,src)
 				play_sound(src,src.loc,closesound,0)
 				spawn(spw)
@@ -273,7 +274,7 @@ obj
 					src.open = 0
 					src.icon_state = c
 					src.opacity = initial(src.opacity)
-					src.density = 1
+
 
 			pick_lock(mob/M)
 				M<<"You begin to pick the lock."

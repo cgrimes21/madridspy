@@ -221,4 +221,12 @@ mob
 				new /obj/blood (A)
 
 
+	proc/return_enemy_in_view()
 
+		var/list/attack = list()
+		if(locate(/mob) in view(src))
+			for(var/mob/M in view(src))
+				if("[M.agency]" != "[src.agency]")
+					if(!M.slip)
+						attack += M
+		return attack

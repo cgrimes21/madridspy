@@ -15,6 +15,39 @@ mob/npc
 			src.real_name = src.name
 
 
+	missions_clerk
+		icon = 'agent.dmi'
+		icon_state = "uniform2"
+		name = "Missions Clerk"
+		can_die = 0
+		var/hidden = 0
+		health = 5
+		mhealth = 5
+
+		RIS_clerk
+			agency = RIS
+		OSS_clerk
+			agency = OSS
+		get_hit()
+			return
+		get_hit_hand(mob/who)
+			if(src.agency == who.agency)
+				who<<"Take this document."
+
+		process()
+
+			if(!src.is_alone())
+				if(!src.hidden)
+					hidden = 1
+					invisibility = 100
+					density = 0
+					oview(src)<<"[src.name] slips into the shadows."
+			else if(src.hidden)
+				hidden = 0
+				invisibility = 0
+				density = 1
+
+
 
 	//agency employers
 	employer
@@ -26,7 +59,6 @@ mob/npc
 			..()
 			spawn()
 				src.original_loc = src.loc
-				src.name = pick(gen_names)
 
 		proc/begin_conv(mob/M)
 			spawn()

@@ -1,6 +1,12 @@
 *.dmb
+
 *.dme
 
-*.lk*.rsc*.dmb
+
+*.lk
+*.rsc
+*.dmb
 logs/2015_06_04.html
 *.html
+*.int
+hell.int

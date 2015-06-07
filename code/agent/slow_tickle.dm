@@ -7,7 +7,7 @@ mob/agent/slow_tickle()
 
 					var/image/Ii = 	image('shit.dmi',a,"tranq dart",layer=MOB_LAYER)
 					Ii.pixel_y += 32
-					if(src.client)
+					if(src.client && src.show_teammates)
 						src.client.images += Ii
 					src.teammate += a
 ;
