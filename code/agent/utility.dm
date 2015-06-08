@@ -138,9 +138,11 @@ mob
 			save_version()		//compares versions in savefile and updates accordingly
 		//if(src.saveversion == 2)
 			//change whatever you changed in version 2 ex. take out an item
+				world<<"calling save version. [src.z],[src.max]"
 				src.saveversion = SAVE_VERSION
 				return
 			save()
+				oop<<"save() - [src.real_name] attempting to save"
 				src.oe = src.elevation
 				src.ll = 0
 				if(src.luminosity)
@@ -197,7 +199,7 @@ mob
 						world<<"[v] = [src.vars[v]]"
 				*/
 
-				src.Write(f)
+				f["mob"] << src
 /*
 				for(var/v in f.dir)
 
@@ -223,6 +225,8 @@ mob
 				f["underlays"] << null
 
 				src<<"[src.name] saved."
+				oop<<"save() - [src.real_name] saved success."
+				oop<<""
 				src.luminosity = ll
 
 

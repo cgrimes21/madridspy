@@ -149,14 +149,16 @@ obj/playtest
 
 
 			var/found = 0
-			var/list/attack = list()
 
-			if(locate(/mob) in view(src))
-				for(var/mob/agent/M in view(src))
-					if("[M.agency]" != "[src.side]")
-						if(!M.slip)
-							found = 1
-							attack += M
+			if(!locate(/mob) in view(src))
+				return
+
+			var/list/attack = list()
+			for(var/mob/agent/M in view(src))
+				if("[M.agency]" != "[src.side]")
+					if(!M.slip)
+						found = 1
+						attack += M
 
 
 			if(found)	//they found someone,

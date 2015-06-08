@@ -46,7 +46,7 @@ mob/suicide_begin
 				var/vk = f["key"]
 				if(src.key != vk)
 					f["key"] << src.key
-				a.Read(f)
+				f["mob"] >> a
 		else
 			src.client.mob = new /mob/begin
 
@@ -73,6 +73,7 @@ mob/begin
 
 				if(!fexists("players/[copytext(ckey(src.agentname), 1,2)]/[ckey(src.agentname)]"))
 					oop<<"find_savefiles() - The player file [src.agentname] does not exist in players/!"
+					oop<<""
 					fdel("ipload/[src.client.computer_id]1")
 					src.agentname = null
 					return
@@ -87,6 +88,7 @@ mob/begin
 				winshow(src, "m_title.vun", 1)
 				winset(src,"m_title.vun","text='[src.agentname]'")
 				oop<<"find_savefiles() - loaded agent name is [src.agentname]"
+				oop<<""
 
 
 	proc/relay_info(t,b)
@@ -140,24 +142,30 @@ This computer system is for authorized users only. All activity is logged and re
 				return
 			src.pro = 1
 
-			oop<<"proceed() - Key: [src.client.ckey] -  Agent name: [src.agentname]"
+			oop<<"proceed() -1 Key: [src.client.ckey] -  Agent name: [src.agentname]"
 
 			if(fexists("players/[copytext(ckey(src.agentname), 1,2)]/[ckey(src.agentname)]"))
 
-				oop<<"proceed() - Corresponding file exists"
+				oop<<"proceed() -2/3 players/[ckey(src.agentname)] exists"
 				var/savefile/f = new("players/[copytext(ckey(src.agentname), 1,2)]/[ckey(src.agentname)]")
 				var/mob/agent/a = new()
-				oop << "proceed() - loaded [f["name"]] ([f["key"]])"
 				var/vk = f["key"]
 				if(src.key != vk)
 					f["key"] << src.key
-				a.Read(f)
-				a.save_version()
+				oop << "proceed() -3/3 loaded Key([f["key"]])"
+				oop<<""
+				f["mob"] >> a
+
+
+
+			//this should NEVER happen, as find_savefiles takes care of this and is called first
 			else if(fexists("ipload/[src.client.computer_id]1"))
-				oop<<"proceed() - ipload [src.client.computer_id] exists but savefile doesnt!"
+				oop<<"proceed() -2 ipload [src.client.computer_id] exists but savefile doesnt!"
 				src.pro = 0
 				fdel("ipload/[src.client.computer_id]")
+				CRASH("proceed() - ipload [src.client.computer_id] exists but savefile doesnt!")
 				src.find_savefiles()
+			oop<<""
 			sleep(10)
 			src.pro=0
 
@@ -274,11 +282,12 @@ This computer system is for authorized users only. All activity is logged and re
 			a.oics = a.icon_state
 			a.name = name
 			a.issue_card()
+
+
+
+			a.save()
 			src.client.mob = a
 
-
-			var/savefile/s = new("players/[copytext(ckey(name), 1,2)]/[ckey(name)]")
-			a.Write(s)
 			//by this time login is already called and over with
 			game_del(src)
 
@@ -499,7 +508,7 @@ client
 		*/
 		return
 
-/*
+
 	Del()
 		if(src.mob)
 			if(istype(src.mob,/mob/agent))
@@ -508,7 +517,7 @@ client
 				wlog<<"[get_time()] deleting [src.mob.name] ([src.ckey]) ([src.address]) under client/del(). calling save"
 				a.save()
 		..()
-		*/
+
 	New()
 		/*if your banned at all either by computer id or key/adress, dont do anything*/
 		/*if your really serious about banning somebody, just add their computer id

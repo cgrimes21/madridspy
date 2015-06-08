@@ -8,3 +8,5 @@ gun overlay doesnt carry over to rooftop
 say bubble below roof
 click slots with hand full should swap if capable
 say is probably fucked somehow
+do something with saveversion, call it at the end of mob/login instead of loading/saving
+added a sales tracker. do something different with cash in circulation

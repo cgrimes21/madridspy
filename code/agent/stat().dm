@@ -1,6 +1,5 @@
 mob/agent/Stat()
 	..()
-
 	src<<output("health","stats.statt:1,1")
 	src<<output("[round(src.health)] / [src.mhealth]","stats.statt:2,1")
 	src<<output("money","stats.statt:1,2")

@@ -23,13 +23,6 @@ vector
 		var/X
 		var/Y
 
-mob/verb
-	drawthelight()
-		var/obj/b_light/s = new(src.loc)
-		draw_light(s)
-	drawscreen()
-		draw_screen(src)
-
 world
 	icon_size = 32
 proc

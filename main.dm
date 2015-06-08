@@ -61,6 +61,7 @@ world
 	Del()
 		oop<<"World/Del()"
 		wlog<<"[get_time()] deleting world"
+		save_sale_tracker_log()
 		..()
 	New()
 	//use savefiles as ban holders.
@@ -120,8 +121,6 @@ mob/verb/get_window_poss()
 	world<<winget(src,"equipmentwindow","size")
 
 
-mob/verb/alter_perception()
-	src.client.dir = pick(NORTH,SOUTH,EAST,WEST)
 #define DEBUG
 
 #define TILE_WIDTH 32
@@ -664,10 +663,30 @@ proc
 		ed = 1
 		while(world)
 			sleep(10)
+			ticker ++
+/*day night broke it
+			if(!(ticker % (60*120)))
+				if(night)
+					day(1)
+				else
+					day(0)
+*/
 			rankers = list()
-			for(var/mob/agent/a in world)
-				if(a.client)
+			cash_in_circ = 0
 
+			for(var/mob/M in world)
+				if(istype(M,/mob))
+					M.process()
+
+					if(M.client)
+						cash_in_circ += M.money
+					if(!(ticker % 6))
+						M.med_tickle()
+					if(!(ticker % 12))
+						M.slow_tickle()
+
+				if(istype(M,/mob/agent) && (M.client))
+					var/mob/agent/a = M
 					if(!topgun)
 						topgun = a
 					else
@@ -678,19 +697,7 @@ proc
 							rankers += a
 
 
-			ticker ++
-/*day night broke it
-			if(!(ticker % (60*120)))
-				if(night)
-					day(1)
-				else
-					day(0)
-*/
 
-
-			for(var/mob/M in world)
-				if(istype(M,/mob))
-					M.process()
 			for(var/obj/cabinet/c in world)
 				if(istype(c))
 					c.process()
@@ -705,6 +712,8 @@ proc
 				if(istype(v,/obj/small))
 					if(v.loc)				//dont do this for things inside the market list
 						v.process()
+					if(!(ticker % 12))
+						v.slow_tickle()
 
 			if(!(ticker % 260))	//~ 4 mins
 				garbage_collect()
@@ -712,9 +721,6 @@ proc
 
 			if(!(ticker % 6))
 
-				for(var/mob/M in world)
-					if(istype(M,/mob))
-						M.med_tickle()
 				for(var/obj/vendors/v in world)
 					if(istype(v,/obj/vendors))
 						v.process()
@@ -723,12 +729,6 @@ proc
 				//Controls market flow
 
 			if(!(ticker % 12))
-				for(var/mob/M in world)
-					if(istype(M,/mob))
-						M.slow_tickle()
-				for(var/obj/small/ss in world)
-					if(istype(ss,/obj/small))
-						ss.slow_tickle()
 				for(var/obj/other/light/l in world)
 					l.slow_tickle()
 

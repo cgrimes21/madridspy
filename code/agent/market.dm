@@ -9,6 +9,12 @@ obj/small
 		sale_value	= 0		//sale value is the same as value and initial value. When bought this goes down and slowly dwindles up
 */
 
+var
+	sale_tracker = file("logs/market/sale_tracker.txt")
+	savefile/st = new("logs/market/st.save")
+
+	total_spent = 0
+	cash_in_circ = 0
 
 var/list
 
@@ -16,6 +22,32 @@ var/list
 
 
 proc
+	save_sale_tracker_log()
+		for(var/market_values/m in market_items)
+			var/padder=" "
+			for(var/v = 1, v< 50-length(m.name), v++)
+				padder += "."
+
+			sale_tracker<<"[m.name][padder]<- bought [m.tracker==null?0:m.tracker] times."
+			st["[m.name]"] << m.tracker
+		sale_tracker<<""
+		sale_tracker<<"Total spent: $[total_spent==null?0:total_spent]"
+
+		sale_tracker<<"Total cash in circulation: $[cash_in_circ]"
+
+		st["total"] << total_spent
+
+	load_sale_tracker_log()
+		if(fexists(sale_tracker))
+			fdel(sale_tracker)
+		if(fexists("logs/market/st.save"))
+			for(var/market_values/m in market_items)
+				st["[m.name]"] >> m.tracker
+				//save its current value as well
+			st["total"] >> total_spent
+
+
+
 	get_sale_value(obj/small/whats,mob/who)
 		if(!whats)
 			return
@@ -46,9 +78,12 @@ proc
 		var/market_values/what = locate("[whats.type]") in market_items
 		if(!what)	//item requesting is not in market
 			return
+
+
 		debuggers<<"increasing rates on [what.name]"
 		what.tracker ++
 		what.value += what.initial_value * (what.value_mod)
+		total_spent += what.value
 
 		what.sale_value -= what.initial_value * (what.value_mod)
 		if(what.sale_value < 1)
@@ -81,6 +116,7 @@ proc
 			market_items += new /market_values (ss,ss.value,ss.initial_value,ss.sale_value,ss.value_mod)
 			game_del(ss)
 
+		load_sale_tracker_log()
 		wlog<<"<br>Objects Total: [market_items.len]"
 		wlog<<"[get_time()]: end generation"
 
