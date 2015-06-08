@@ -62,7 +62,7 @@ mob
 			*/
 			//set up size of output window, and adjust all windows according to resolution
 			winset(src, "m_output","size='376x344'")
-			winset(src,"equipmentwindow","size='192x111'")//385x399'")
+			winset(src,"equipmentwindow","size='384x216'")//385x399'")
 			//winset(src, "m_output","size='283x565'")
 			var/tt = winget(src, "m_Map", "size")
 			var/xx = copytext(tt,1,findtext(tt,"x"))
@@ -227,6 +227,9 @@ H toggles this help file."},"m_help.output")
 			wlog<<"[get_time()] [src.real_name](([src.ckey])) logging out"
 			if(src.client)
 				wlog<<"[src.real_name] -> with a client of  ([src.client.address]) logging out"
+				src.lz = src.z
+				wlog<<"[get_time()] deleting [src.name] ([src.client.ckey]) ([src.client.address]) under mob/agent/logout(). calling save"
+				src.save()
 			world<<"<b>[src.real_name] logs out!</b>"
 			viewers(5,src)<<"[src.name] slips into the shadows."
 			if(ckey(src.real_name) in niu)

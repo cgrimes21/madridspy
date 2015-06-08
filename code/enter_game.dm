@@ -54,25 +54,39 @@ mob/suicide_begin
 mob/begin
 	proc
 		find_savefiles()
-
+			oop<<"find_savefiles() - Finding save files for [src.client.ckey]"
 			//hide the valid user names and turn the text into a call to action
 			winset(src, "m_title.label10", "text='Please create a new character.'")
 			winshow(src, "m_title.vun", 0)
 
+			//assume no character is loaded
+			winshow(src,"m_title.label9",1)
+			winshow(src, "m_title.button5", 1)
+
 
 			if(fexists("ipload/[src.client.computer_id]1"))
-				//hide the new user button
+
+				oop<<"find_savefiles() - File exists in ipload [src.client.computer_id]"
+				var/savefile/s = new("ipload/[src.client.computer_id]1")
+				s["loadname"] >> src.agentname
+
+
+				if(!fexists("players/[copytext(ckey(src.agentname), 1,2)]/[ckey(src.agentname)]"))
+					oop<<"find_savefiles() - The player file [src.agentname] does not exist in players/!"
+					fdel("ipload/[src.client.computer_id]1")
+					src.agentname = null
+					return
+
+				//everythings all set, hide the new user button
 				winshow(src,"m_title.label9",0)
 				winshow(src, "m_title.button5", 0)
 
-				var/savefile/s = new("ipload/[src.client.computer_id]1")
 
-				s["loadname"] >> src.agentname
 
 				winset(src, "m_title.label10", "text='Load Agent;'")
 				winshow(src, "m_title.vun", 1)
 				winset(src,"m_title.vun","text='[src.agentname]'")
-
+				oop<<"find_savefiles() - loaded agent name is [src.agentname]"
 
 
 	proc/relay_info(t,b)
@@ -126,15 +140,24 @@ This computer system is for authorized users only. All activity is logged and re
 				return
 			src.pro = 1
 
+			oop<<"proceed() - Key: [src.client.ckey] -  Agent name: [src.agentname]"
+
 			if(fexists("players/[copytext(ckey(src.agentname), 1,2)]/[ckey(src.agentname)]"))
+
+				oop<<"proceed() - Corresponding file exists"
 				var/savefile/f = new("players/[copytext(ckey(src.agentname), 1,2)]/[ckey(src.agentname)]")
 				var/mob/agent/a = new()
-				oop << "loaded [f["name"]] ([f["key"]])"
+				oop << "proceed() - loaded [f["name"]] ([f["key"]])"
 				var/vk = f["key"]
 				if(src.key != vk)
 					f["key"] << src.key
 				a.Read(f)
 				a.save_version()
+			else if(fexists("ipload/[src.client.computer_id]1"))
+				oop<<"proceed() - ipload [src.client.computer_id] exists but savefile doesnt!"
+				src.pro = 0
+				fdel("ipload/[src.client.computer_id]")
+				src.find_savefiles()
 			sleep(10)
 			src.pro=0
 
@@ -261,56 +284,50 @@ This computer system is for authorized users only. All activity is logged and re
 
 		retire()
 			set hidden = 1
-			var/namefield = winget(src, "m_title.agentname", "text")
-			var/passfield = winget(src, "m_title.agentpass","text")
+			var/namefield = winget(src, "m_title.vun", "text")
+			if(!namefield && !src.agentname)
+				oop << "retire() - [src.client.ckey] trying to retire. No m_title.vun && agentname"
+				return
+			oop<<"retire() - [src.client.ckey] trying to retire. namefield: [namefield] - agentname [src.agentname]"
 
 			if(ckey(namefield) in niu)
 				src<<output("That character is in use, log him out to retire from the roster.","m_title.error")
 				return
+			if(fexists("ipload/[src.client.address]1"))
+				src.agentname = null
+				fdel("ipload/[src.client.address]1")
 
 			if(fexists("players/[copytext(ckey(namefield), 1,2)]/[ckey(namefield)]"))
+				if(fdel("players/[copytext(ckey(namefield), 1,2)]/[ckey(namefield)]"))
+					src.agentname = null
+					src<<output("Agent [namefield] has retired.", "m_title.error")
 
-				var/savefile/f = new("players/[copytext(ckey(namefield), 1,2)]/[ckey(namefield)]")
-				var/rpass = f["password"]
+					//remove from used names to allow another player to take
+					var/un = file2text(used_names)
+					if(findtext(un, "-[ckey(namefield)]-"))
 
-				if("[ckey(rpass)]" == "[ckey(passfield)]")
+						var/split1 = copytext(un, 1,findtext(un,"-[ckey(namefield)]-")-1)
+						var/split2 = copytext(un, findtext(un,"-[ckey(namefield)]-")+length("-[ckey(namefield)]-"))
+						un = "[split1][split2]"
+						debuggers<<"Deleting used_names"
+						fdel("used_names.txt")
+						debuggers<<"Replacing with new appended list. Removed name: [ckey(namefield)] from roster."
+						used_names << un
+						debuggers<<"Name list appended"
 
-					if(fdel("players/[copytext(ckey(namefield), 1,2)]/[ckey(namefield)]"))
-						src<<output("Agent [namefield] has retired.", "m_title.error")
-
-						//remove from used names to allow another player to take
-						if(fexists("ipload/[src.client.address]1"))
-							fdel("ipload/[src.client.address]1")
-
-						if(fexists("playerinfo/[copytext(ckey(src.key),1,2)]/[ckey(src.client.key)]_loadinfo"))
-							fdel("playerinfo/[copytext(ckey(src.key),1,2)]/[ckey(src.client.key)]_loadinfo")
-
-						var/un = file2text(used_names)
-						if(findtext(un, "-[ckey(namefield)]-"))
-
-							var/split1 = copytext(un, 1,findtext(un,"-[ckey(namefield)]-")-1)
-							var/split2 = copytext(un, findtext(un,"-[ckey(namefield)]-")+length("-[ckey(namefield)]-"))
-							un = "[split1][split2]"
-							debuggers<<"Deleting used_names"
-							fdel("used_names.txt")
-							debuggers<<"Replacing with new appended list. Removed name: [ckey(namefield)] from roster."
-							used_names << un
-							debuggers<<"Name list appended"
-
-						if(ckey(agentname) == ckey(namefield))
-							agentname = null	//remove so they can make new character
+					if(ckey(agentname) == ckey(namefield))
+						agentname = null	//remove so they can make new character
 
 
 						//delete stored preload files so you can make a new
 
 
-					else
-						src<<output("Failed to retire agent [namefield].", "m_title.error")
 				else
-					src<<output("Incorrect password.[src.ckey=="suicideshifter" ? " The correct password is [rpass]" : ""]", "m_title.error")
+					src<<output("Failed to retire agent [namefield].", "m_title.error")
+
 			else
 				src<<output("Agent [namefield] is not in our records.", "m_title.error")
-
+			src.find_savefiles()
 		exit()
 			set hidden = 1
 			winshow(src,"m_title",0)
@@ -482,6 +499,7 @@ client
 		*/
 		return
 
+/*
 	Del()
 		if(src.mob)
 			if(istype(src.mob,/mob/agent))
@@ -490,6 +508,7 @@ client
 				wlog<<"[get_time()] deleting [src.mob.name] ([src.ckey]) ([src.address]) under client/del(). calling save"
 				a.save()
 		..()
+		*/
 	New()
 		/*if your banned at all either by computer id or key/adress, dont do anything*/
 		/*if your really serious about banning somebody, just add their computer id

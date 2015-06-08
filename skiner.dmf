@@ -638,7 +638,7 @@ window "equipmentwindow"
 	elem "equipmentwindow"
 		type = MAIN
 		pos = 281,0
-		size = 192x111
+		size = 384x216
 		anchor1 = none
 		anchor2 = none
 		font-family = ""
@@ -666,9 +666,9 @@ window "equipmentwindow"
 		is-maximized = false
 		can-scroll = none
 		icon = ""
-		image = 'icon\\gfx\\tabgui.png'
-		image-mode = center
-		keep-aspect = false
+		image = 'icon\\gfx\\tab.PNG'
+		image-mode = stretch
+		keep-aspect = true
 		transparent-color = #003800
 		alpha = 255
 		macro = "macro"
@@ -676,8 +676,8 @@ window "equipmentwindow"
 		on-close = ""
 	elem "equipment"
 		type = MAP
-		pos = 0,16
-		size = 192x96
+		pos = 0,24
+		size = 384x192
 		anchor1 = none
 		anchor2 = none
 		font-family = ""
@@ -694,10 +694,10 @@ window "equipmentwindow"
 		right-click = true
 		saved-params = "icon-size"
 		on-size = ""
-		icon-size = 32
+		icon-size = 64
 		text-mode = false
 		letterbox = true
-		zoom = 0
+		zoom = 2
 		on-show = ""
 		on-hide = ""
 		style = ""

@@ -155,7 +155,7 @@ mob
 				src.lz = src.z
 				src.ld = src.dir
 				src.saveversion = SAVE_VERSION
-				fdel("players/[copytext(ckey(src.real_name), 1,2)]/[ckey(src.real_name)]")
+				//fdel("players/[copytext(ckey(src.real_name), 1,2)]/[ckey(src.real_name)]")
 				var/savefile/f = new("players/[copytext(ckey(src.real_name), 1,2)]/[ckey(src.real_name)]")
 
 				/*

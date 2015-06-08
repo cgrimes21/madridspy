@@ -111,7 +111,7 @@ mob
 
 			say(t as text)
 				t = copytext(t, 1, 212)
-				src.sayb(t)
+				//src.sayb(t)
 
 				for(var/atom/M in view(src))			//includes eavsdropping gadgets
 					//under alerts or something within notice sound, simply call spawn before them
