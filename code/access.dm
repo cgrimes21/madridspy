@@ -22,9 +22,6 @@ obj/proc
 
 
 
-
-
-
 mob/verb/reset_visuals()
 	set hidden = 1
 	src.Overlays = list()

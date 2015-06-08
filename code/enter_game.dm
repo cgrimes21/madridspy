@@ -47,6 +47,7 @@ mob/suicide_begin
 				if(src.key != vk)
 					f["key"] << src.key
 				f["mob"] >> a
+
 		else
 			src.client.mob = new /mob/begin
 
@@ -155,7 +156,6 @@ This computer system is for authorized users only. All activity is logged and re
 				oop << "proceed() -3/3 loaded Key([f["key"]])"
 				oop<<""
 				f["mob"] >> a
-
 
 
 			//this should NEVER happen, as find_savefiles takes care of this and is called first
@@ -513,7 +513,6 @@ client
 		if(src.mob)
 			if(istype(src.mob,/mob/agent))
 				var/mob/agent/a = src.mob
-				a.lz = a.z
 				wlog<<"[get_time()] deleting [src.mob.name] ([src.ckey]) ([src.address]) under client/del(). calling save"
 				a.save()
 		..()

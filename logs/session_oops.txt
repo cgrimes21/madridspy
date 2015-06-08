@@ -3,13 +3,13 @@ proc/create_names()
 client/new()
 find_savefiles() - Finding save files for smokeyjoe
 find_savefiles() - File exists in ipload 1499851252
-find_savefiles() - loaded agent name is kk
+find_savefiles() - loaded agent name is gg
 
-proceed() -1 Key: smokeyjoe -  Agent name: kk
-proceed() -2/3 players/kk exists
+proceed() -1 Key: smokeyjoe -  Agent name: gg
+proceed() -2/3 players/gg exists
 proceed() -3/3 loaded Key(Smokey Joe)
 
-World/Del()
-save() - kk attempting to save
-save() - kk saved success.
+save() - gg attempting to save
+save() - gg saved success. 39,36,1
 
+World/Del()

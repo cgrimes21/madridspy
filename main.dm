@@ -6,7 +6,6 @@
 //
 //NSimSun is a great font
 ///////////////////
-
 obj
 	li
 		three

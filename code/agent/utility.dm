@@ -143,6 +143,7 @@ mob
 				return
 			save()
 				oop<<"save() - [src.real_name] attempting to save"
+
 				src.oe = src.elevation
 				src.ll = 0
 				if(src.luminosity)
@@ -157,7 +158,8 @@ mob
 				src.lz = src.z
 				src.ld = src.dir
 				src.saveversion = SAVE_VERSION
-				//fdel("players/[copytext(ckey(src.real_name), 1,2)]/[ckey(src.real_name)]")
+				if(fexists("players/[copytext(ckey(src.real_name), 1,2)]/[ckey(src.real_name)]"))
+					fdel("players/[copytext(ckey(src.real_name), 1,2)]/[ckey(src.real_name)]")
 				var/savefile/f = new("players/[copytext(ckey(src.real_name), 1,2)]/[ckey(src.real_name)]")
 
 				/*
@@ -225,7 +227,7 @@ mob
 				f["underlays"] << null
 
 				src<<"[src.name] saved."
-				oop<<"save() - [src.real_name] saved success."
+				oop<<"save() - [src.real_name] saved success. [src.lx],[src.ly],[src.lz]"
 				oop<<""
 				src.luminosity = ll
 
